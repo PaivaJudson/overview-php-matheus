@@ -21,4 +21,3 @@ function itensCaros($arr){
 $novoArr = itensCaros($arr);
 echo "<pre>";
 print_r($novoArr);
-
