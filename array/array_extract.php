@@ -9,4 +9,4 @@ $array = [
 
 extract($array);
 
-echo "a cor é = $cor; a Figura = $forma; o material = $material";
+echo "a Cor é = $cor; a Figura = $forma; o Material = $material";
