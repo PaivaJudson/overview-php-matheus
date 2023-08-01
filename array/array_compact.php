@@ -9,3 +9,6 @@ $carro = compact("marca", "motor", "tetoSolar", "portas");
 
 echo "<pre>";
 print_r($carro);
+
+
+
