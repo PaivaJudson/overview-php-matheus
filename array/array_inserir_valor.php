@@ -8,21 +8,15 @@ print("<pre>");
 var_dump($array);
 
 $array[] = 20;
-
-print("<pre>");
 var_dump($array);
 
 $arrayAssoc = [];
 
 $arrayAssoc['a'] = 29;
 $arrayAssoc['b'] = 12;
-
-print("<pre>");
 var_dump($arrayAssoc);
 
 $arrayAssoc[] = 20;
-
-print("<pre>");
 var_dump($arrayAssoc);
 
 $array['z'] = 40;
