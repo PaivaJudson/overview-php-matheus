@@ -9,14 +9,23 @@ class Pessoa
     public const OUVIDOS = 2;
 
 
-    function falar(): string
+    public function falar(): string
     {
         return "Olá eu sou o ". $this->nome;;
     }
 
-    function alterarNome($nome)
+    public function alterarNome($nome)
     {
         $this->nome = $nome;
+    }
+
+    public function setIdade($idade){
+        $this->idade = $idade;
+    }
+
+    public function getIdade()
+    {
+        return $this->idade;
     }
 }
 
@@ -26,3 +35,4 @@ $judson->alterarNome("Quissanga Paiva");
 echo $judson->falar() . "<br>";
 echo $judson->idade . " anos de idade <br>";
 echo "Tu tens ". $judson::OLHOS . " olhos e ". $judson::OUVIDOS . " ouvidos";
+
