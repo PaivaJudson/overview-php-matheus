@@ -34,5 +34,9 @@ $judson = new Pessoa();
 $judson->alterarNome("Quissanga Paiva");
 echo $judson->falar() . "<br>";
 echo $judson->idade . " anos de idade <br>";
-echo "Tu tens ". $judson::OLHOS . " olhos e ". $judson::OUVIDOS . " ouvidos";
+echo "Tu tens ". $judson::OLHOS . " olhos e ". $judson::OUVIDOS . " ouvidos <br>";
+
+echo ($judson instanceof Pessoa)? "Pessoa":"nao é pessoa";
+
+
 
