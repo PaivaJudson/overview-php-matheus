@@ -1,9 +1,6 @@
 <?php
-
     print_r($_FILES);
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
