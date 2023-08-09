@@ -4,3 +4,55 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#adrress-container, #form-container {
+    flex: 1 1 0;
+    height: 100%;
+    text-align: center;
+}
+
+#adrress-container{
+    background-image: url('../img/project_bg.jpg');
+    background-size: cover;
+    background-position-x: -130px;
+    color: #FFF;
+    position: relative;
+}
+
+.fade{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+}
+
+#adrress-content {
+    position: absolute;
+    top: 25vh;
+    left: 35%;
+    width: 300px;
+}
+
+#adrress-content h2{
+    color: #00AD5E;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 40px;
+}
+
+#adrress-content ion-icon{
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+#adrress-content p{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
