@@ -1,6 +1,6 @@
 
 <footer>
-    <p>Blog Codar &copy; 2023</p>
+    <p>Hora de Programar &copy; 2023</p>
 </footer>
 
 </body>

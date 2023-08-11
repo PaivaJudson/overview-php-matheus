@@ -21,10 +21,10 @@ include_once "helpers/url.php";
             <img src="<?= $BASE_URL ?>/img/logo.svg" alt="Blog Codar">
         </a>
         <nav id="navbar">
-            <li><a href="<?= $BASE_URL ?>">Home</a></li>
-            <li><a href="<?= $BASE_URL ?>">Categorias</a></li>
-            <li><a href="<?= $BASE_URL ?>">Sobre</a></li>
-            <li><a href="<?= $BASE_URL ?>contacto">Contacto</a></li>
+            <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
+            <li><a href="<?= $BASE_URL ?>#" class="nav-link">Categorias</a></li>
+            <li><a href="<?= $BASE_URL ?>#" class="nav-link">Sobre</a></li>
+            <li><a href="<?= $BASE_URL ?>contacto" class="nav-link">Contacto</a></li>
         </nav>
 
     </header>
