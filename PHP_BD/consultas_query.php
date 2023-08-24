@@ -8,8 +8,16 @@ $bd = "learning_php";
 
 $conn = new mysqli($host, $user, $password, $bd);
 
-if($conn->connect_errno){
-    echo "Erro na conexao <br>";
-    echo mysqli_connect_error();
+
+
+
+
+
+function select(){
+    global $conn;
+    $sql = "SELECT * FROM itens";
+    $result = $conn->query($sql);
+    echo "<pre>";
+    print_r($result);
 }
 
